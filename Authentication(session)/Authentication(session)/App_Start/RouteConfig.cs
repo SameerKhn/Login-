@@ -15,7 +15,7 @@ namespace Authentication_session_
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
+                url: "{controller}/{action}/{id}",//index change to login
                 defaults: new { controller = "Home", action = "Login", id = UrlParameter.Optional }
             );
         }

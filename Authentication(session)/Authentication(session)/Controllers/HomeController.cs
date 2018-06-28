@@ -7,6 +7,8 @@ using System.Web.Mvc;
 
 namespace Authentication_session_.Controllers
 {
+    //Home Controller
+    // Use username = Sameer0 password =ESW0
     public class HomeController : Controller
     {
         public List<User> userList = new List<Models.User>();
